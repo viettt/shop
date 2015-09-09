@@ -1,0 +1,30 @@
+.breadcrumb {
+    margin: 0px;
+    clear: both;
+    font-size: 12px;
+    list-style: none;
+    padding: 20px 0px;
+    border-radius: 0px;
+}
+
+.breadcrumb li {
+    display: inline;
+    list-style: none;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.breadcrumb li a {
+    color: #ee3524;
+    text-decoration: underline;
+}
+
+.breadcrumb .active {
+    color: #363636;
+}
+
+.breadcrumb>li+li:before {
+    content: "\00BB\00a0";
+    padding: 0 5px;
+    color: #ccc;
+}
